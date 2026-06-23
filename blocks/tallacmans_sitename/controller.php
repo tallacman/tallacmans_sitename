@@ -14,7 +14,7 @@ class Controller extends BlockController
     protected $btTable = 'btTallacmansSitename';
     protected $btExportFileColumns = ['logoIcon'];
     protected $btInterfaceWidth = 420;
-    protected $btInterfaceHeight = 520;
+    protected $btInterfaceHeight = 620;
     protected $btDefaultSet = 'basic';
     protected $pkg = 'tallacmans_sitename';
 
