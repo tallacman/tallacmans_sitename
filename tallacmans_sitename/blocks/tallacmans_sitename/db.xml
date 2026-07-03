@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+  xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd"
+>
+
+  <table name="btTallacmansSitename">
+    <field name="bID" type="integer">
+      <unsigned/>
+      <key/>
+    </field>
+    <field name="displaySitename" type="string" size="255"/>
+    <field name="logoIcon" type="integer">
+      <unsigned/>
+      <default value="0"/>
+    </field>
+    <field name="iconWidth" type="integer">
+      <unsigned/>
+      <default value="0"/>
+    </field>
+    <field name="alignment" type="string" size="35"/>
+    <field name="textColor" type="string" size="7"/>
+    <field name="textHoverColor" type="string" size="7"/>
+    <field name="fontWeight" type="string" size="10">
+      <default value="600"/>
+    </field>
+    <field name="spaceHorizontal" type="integer">
+      <unsigned/>
+      <default value="6"/>
+    </field>
+    <field name="spaceVertical" type="integer">
+      <unsigned/>
+      <default value="4"/>
+    </field>
+    <field name="fontSize" type="integer">
+      <unsigned/>
+      <default value="18"/>
+    </field>
+    <field name="blockPaddingTop" type="integer">
+      <unsigned/>
+      <default value="0"/>
+    </field>
+    <field name="blockPaddingBottom" type="integer">
+      <unsigned/>
+      <default value="0"/>
+    </field>
+  </table>
+
+</schema>

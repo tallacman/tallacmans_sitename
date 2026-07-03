@@ -1,0 +1,58 @@
+div.tallacmans-sitename-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.tallacmans-sitename {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.tallacmans-sitename.align-image-left {
+  flex-direction: row;
+}
+.tallacmans-sitename.align-image-right {
+  flex-direction: row-reverse;
+}
+.tallacmans-sitename.align-image-top {
+  flex-direction: column;
+}
+.tallacmans-sitename.align-image-bottom {
+  flex-direction: column-reverse;
+}
+.tallacmans-sitename-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+.tallacmans-sitename-wrapper a {
+  padding: 0 !important;
+  margin: 0;
+  display: block;
+}
+.tallacmans-sitename-icon a {
+  line-height: 0;
+}
+.tallacmans-sitename-icon img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.tallacmans-sitename-text {
+  text-align: center;
+  line-height: 1;
+}
+.tallacmans-sitename-text a {
+  color: var(--sitename-text-color, inherit);
+  text-decoration: none;
+  font-size: var(--sitename-font-size, 1.15rem) !important;
+  line-height: 1.1;
+  transition: color 0.15s ease;
+}
+.tallacmans-sitename-text a:hover,
+.tallacmans-sitename-text a:focus {
+  color: var(--sitename-text-hover-color, var(--sitename-text-color, inherit)) !important;
+  text-decoration: underline;
+}
