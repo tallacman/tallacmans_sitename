@@ -1,2 +1,2 @@
-# tallacmans_sitename
+# tallacmans sitename
 for concreteCMS 9
